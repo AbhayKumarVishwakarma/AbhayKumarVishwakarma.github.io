@@ -1,0 +1,614 @@
+html{
+    background-color: #c9d1d9;
+    /* background-color: rgb(204, 193, 193); */
+    /* font-family: "verdana", "sans-serif";*/
+    font-family:'Open Sans', sans-serif; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#nav-menu{
+    height: 68px;
+    width: 100%;
+    /* margin: auto; */
+    /* background-color: #0d1117; */
+    background-color: #213549;
+    /* background-color: #333469; */
+    color: white;
+    display: block;
+    /* position: fixed; */
+    align-items: center;
+    align-content: center;
+}
+.nav_link-container{
+    /* border: 1px solid wheat; */
+    /* margin-top: 10px; */
+    height: 68px;
+    /* position: fixed; */
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #c9d1d9;
+    margin-top: 0;
+    /* position: fixed; */
+    
+}
+.nav_link-container a{
+    text-decoration: none;
+    color: #c9d1d9;
+}
+
+/* .nav_link-container ul {
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.nav_link-container ul li {
+    list-style: none;
+}
+.nav_link-container ul li a {
+    color: red;
+    font-size: 0.5cm;
+    text-decoration: none;
+    cursor: pointer;
+} */
+
+/* #resume-link-1, */
+ /* #resume-link-1, #resume-button-2{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 7px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 18px;
+    color: #c9d1d9;
+    height: 48px;
+}
+#resume-link-1:hover{
+    transform: scale(1.04);
+    background-color: #c9d1d9;
+    color: #213549;
+}  */
+#resume-button-2{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 7px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 17px 18px;
+    color: #213549;
+    background-color: #c9d1d9;
+    height: 48px;
+}
+button:hover{
+    transform: scale(1.04);
+    color: white;
+    background-color: #213549;
+    /* color: #c9d1d9; */
+}
+
+/* ------home------------- */
+
+#home{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    width: 78%;
+    /* height: 500px; */
+    margin: 150px auto 150px;
+    /* border: 5px solid blue; */
+    /* background-color: #333469; */
+    display: flex;
+    justify-content: space-between;
+    /* row-gap: 50px; */
+    align-items: center;
+    /* padding: 20px; */
+
+}
+.child1{
+    /* width: 280px; */
+    padding: 1em;
+    height: 300px;
+    /* border: 2px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    background-color: #213549;
+    border-radius: 10px;
+    object-fit: cover;
+    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; */
+}
+img {
+    object-fit: cover;
+    /* border-radius: 10px; */
+  }
+.child2{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 1em;
+    /* height: 500px; */
+    /* border: 2px solid green; */
+    /* align-items: center; */
+    /* margin: auto; */
+    /* text-align: left; */
+}
+
+/*------------------- about ---------------*/
+
+#about{
+    width: 70%;
+    height: 340px;
+    padding: 1em;
+    /* border: 2px solid red; */
+    margin: 30px auto 100px;
+    color: #c9d1d9;
+    /* text-align: center; */
+    display: flex;
+    justify-content: space-between;
+    background-color: #333469;
+    border-radius: 9px;
+    object-fit: cover;
+}
+#about_resBut{
+    margin: auto;
+    padding: 1em;
+    object-fit: cover;
+    width: 60%;
+}
+#about #home-div{
+    height: 300px;
+    /* width: 300px; */
+    object-fit: cover;
+    margin: auto;
+    padding: 1em;
+    background-color: #c9d1d9;
+    border-radius: 9px;
+}
+
+/*------------ skill -----------------*/
+
+.header{
+    text-align: center;
+}
+#skills{
+    width: 70%;
+    /* display: grid;
+    grid-template-columns: repeat(7,1fr);
+    text-align: center;
+    align-items: center;
+    align-content: center; */
+    margin: auto;
+    margin: 30px auto 100px;
+    /* border: 1px solid black; */
+    background-color: #333469;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill_cont{
+    padding: 1em;
+    /* border: 2px solid black; */
+    width: 40%;
+    margin: 30px auto;
+    background-color: #c9d1d9;
+    border-radius: 7px;
+}
+.skills-card{
+    /* border: 2px solid blue; */
+    /* padding: 0.5em; */
+    width: 70%;
+    /* height: 80px; */
+    margin: auto;
+    align-items: center;
+    background-color: #c9d1d9;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.skills-card-img{
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    /* margin: 10px auto; */
+}
+.skills-card-name{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+/*-------------------- project ----------------*/
+
+#projects{
+    width: 70%;
+    margin: 30px auto 100px;
+    /* margin-bottom: 100px; */
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    /* display: flex; */
+    /* border: 1px solid black; */
+    background-color: #333469;
+    border-radius: 9px;
+}
+
+/* #projects>div{ */
+    /* height: 100px;
+    width: 100px; */
+    /* border: 2px solid purple; */
+/* } */
+.project-card{
+    width: 85%;
+    margin: auto;
+    border: 2px solid darkgreen;
+    margin-bottom: 50px;
+    background-color: #c9d1d9;
+}
+.project-card>div{
+    padding: 1em;
+}
+.project-card div>img{
+    width: 100%;
+    /* padding: 1em; */
+}
+.project-description{
+    margin: 8px auto;
+}
+.project-github-link, .project-deployed-link{
+    
+    width: 150px;
+    margin: auto 10px;
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: black;
+    /* background: #000a47; */
+    line-height: 1.15;
+    font-size: 16px;
+}
+.project-button-div{
+    margin: auto;
+    margin: 15px auto auto;
+}
+.project-button-div button{
+    margin-bottom: 5px;
+}
+.project-button-div button a{
+    color: black
+}
+.project-button-div button a:hover{
+    color: white;
+}
+
+/*----------------------- github --------------------*/
+
+#git-cont{
+    margin: 30px auto 100px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    padding: 1em;
+    background-color: #333469;
+    border-radius: 9px;
+}
+#git-cont img{
+    margin: 5px; 
+    width: 40%;
+    /* width: 37%; */
+}
+#git-one{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#git-one-img{
+
+}
+#git-two{
+    margin: 20px auto auto;
+    /* border: 1px solid black; */
+    width: 97%;
+}
+
+/*--------------------------------- contact -----*/
+
+#contact{
+    width: 70%;
+    margin: 30px auto 100px;
+    display: flex;
+    padding: 10px;
+    /* border: 2px solid rgb(184, 9, 9); */
+    background-color: #333469;
+    border-radius: 9px;
+}
+#contact>div{
+    /* width: 40%; */
+}
+#contact-text{
+    width: 40%;
+    padding: 2em;
+    margin: 30px auto;
+    background-color: #c9d1d9;
+    border-radius: 10px;
+}
+.contact-text-logo{
+    margin: 20px;
+    margin-left: -3px;
+    border-radius: 2px;
+    background-color: #c9d1d9;
+    border: none;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: medium;
+    padding: 2px;
+    /* width: 65%; */
+}
+#contact-link{
+    margin: 50px auto auto;
+    
+    
+}
+.contact-link-logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    background-color: #c9d1d9;
+}
+
+.contact-form {
+    background-color: #c9d1d9;
+    width: 50%;
+    padding: 2em;
+    border-radius: 10px;
+    margin: 30px auto;
+  }
+  
+  .contact-form label {
+    color: black;
+  }
+  
+  .contact-form .heading {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-form label {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    resize: none;
+    height: 80px;
+    /* width: 200px; */
+  }
+  
+  .contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid rgb(27, 20, 76);
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form input:focus, .contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #333469;
+    /* transform: scale(1.05);
+    transition: transform 0.3s ease-in-out; */
+  }
+  
+  .contact-form button[type="submit"] {
+    background-color: #333469;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------- */
+
+@media screen and (min-width:701px) and (max-width:1080px) {
+    /* Here Write all the necessery styles for Medium Screen size  */
+    .nav_link-container{
+        width: 85%;
+        /* font-size: small; */
+    }
+    /* .nav_link-container li {
+        display: none;
+    } */
+    #nav-menu>.nav_logo-container{
+        width: auto;
+        position: fixed;
+        margin-top: 15px;
+    }
+
+    /*------------------ about -------------*/
+    #about{
+        width: 70%;
+        height: auto;
+        padding: 1em;
+        /* border: 2px solid red; */
+        margin: 30px auto 100px;
+        color: #c9d1d9;
+        /* text-align: center; */
+        display: flex;
+        justify-content: space-between;
+        background-color: #333469;
+        border-radius: 9px;
+        object-fit: cover;
+    }
+
+    /*-------------------- skill ----------------*/
+    #skills{
+        /* display: grid;
+        grid-template-columns: repeat(4,1fr); */
+    }
+    .skills-card{
+        width: 98%;
+    }
+
+    /*--------------------- project ----------------------------*/
+    #projects{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    /*-------------------------- github ---------------------------*/
+    #git-cont, #git-one{
+        /* display: flex; */
+        /* flex-direction: column; */
+    }
+
+}
+
+@media screen and (min-width:100px) and (max-width:700px) {
+    /* Here Write all the necessery styles for Small Screen size  */
+    .nav_link-container{
+        width: 100%;
+        font-size: small;
+    }
+    #home{
+        width: 90%;
+        font-size: 30px;
+        flex-direction: column-reverse;
+    }
+
+    /*--------------------- about -------------------------*/
+    #about{
+        width: 90%;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    #home-img{
+        /* height: 300px; */
+        width: auto;
+    }
+    #about_resBut{
+        /* margin: auto;
+        padding: 1em;
+        object-fit: cover; */
+        width: auto;
+    }
+    #about #home-div{
+        height: auto;
+        /* width: 300px; */
+        /* object-fit: cover;
+        margin: auto;
+        padding: 1em; */
+    }
+
+    /*-------------------- skill ----------------*/
+    #skills{
+        width: 90%;
+        /* display: grid;
+        grid-template-columns: repeat(2,1fr); */
+        display: flex;
+        flex-direction: column;
+    }
+    .skill_cont{
+        width: 90%;
+        /* margin: auto;
+        background-color: #c9d1d9; */
+    }
+
+    /*--------------------- project ----------------------------*/
+    #projects{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    /*-------------------------- github ---------------------------*/
+    #git-cont, #git-one{
+        /* width: auto; */
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+    #git-one img{
+        margin: auto; 
+        width: 100%;
+        /* width: 37%; */
+    }
+    #git-one #github-stats-card{
+        margin-top: 10px;
+    }
+
+    /*------------------------------ contact -----------------------*/
+    #contact{
+        width: 90%; 
+      /*  margin: 20px auto; */
+        display: flex;
+        flex-direction: column;
+        /* padding: 12px;
+        border: 2px solid rgb(184, 9, 9);
+        background-color: #333469; */
+    }
+    #contact>div{
+        width: auto;
+    }
+    #contact .contact-form {
+        width: 90%;
+    }
+}
