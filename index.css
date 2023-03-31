@@ -340,8 +340,13 @@ img {
 #git-one img{
    border-radius: 7px;
 }
-#git-two{
+#git-two {
     margin: 20px auto auto;
+    /* border: 1px solid black; */
+    /* width: 33%; */
+}
+#git-two img{
+    /* margin: 20px auto auto; */
     /* border: 1px solid black; */
     width: 33%;
 }
