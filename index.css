@@ -348,7 +348,10 @@ img {
 #git-two img{
     /* margin: 20px auto auto; */
     /* border: 1px solid black; */
-    width: 33%;
+    /* width: 33%; */
+}
+#github-top-langs{
+    width: 40%;
 }
 
 /*--------------------------------- contact -----*/
