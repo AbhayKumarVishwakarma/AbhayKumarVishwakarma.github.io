@@ -19,9 +19,10 @@ html{
     /* background-color: #333469; */
     color: white;
     display: block;
-    /* position: fixed; */
+    position: fixed;
     align-items: center;
     align-content: center;
+    margin-top: -150px;
 }
 .nav_link-container{
     /* border: 1px solid wheat; */
@@ -41,6 +42,7 @@ html{
 .nav_link-container a{
     text-decoration: none;
     color: #c9d1d9;
+    /* position: fixed; */
 }
 
 /* .nav_link-container ul {
@@ -335,13 +337,13 @@ img {
     display: flex;
     justify-content: space-between;
 }
-#git-one-img{
-
+#git-one img{
+   border-radius: 7px;
 }
 #git-two{
     margin: 20px auto auto;
     /* border: 1px solid black; */
-    width: 97%;
+    width: 33%;
 }
 
 /*--------------------------------- contact -----*/
@@ -593,6 +595,11 @@ img {
     }
     #git-one #github-stats-card{
         margin-top: 10px;
+    }
+    #git-two{
+        margin: 10px auto auto;
+        /* border: 1px solid black; */
+        width: 90%;
     }
 
     /*------------------------------ contact -----------------------*/
