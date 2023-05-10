@@ -394,7 +394,7 @@ img {
 
     /*------------------- Home --------------*/
     .child2{
-        font-size: calc(24px + 0.390625vw);
+        font-size: calc(28px + 0.390625vw);
         color: #213549;
     }
 
@@ -445,6 +445,12 @@ img {
         width: 90%;
         font-size: 30px;
         flex-direction: column-reverse;
+    }
+
+    /*------------------- Home --------------*/
+    .child2{
+        font-size: calc(22px + 0.390625vw);
+        color: #213549;
     }
 
     /*--------------------- about -------------------------*/
