@@ -13,10 +13,7 @@ html{
 #nav-menu{
     height: 68px;
     width: 100%;
-    /* margin: auto; */
-    /* background-color: #0d1117; */
     background-color: #213549;
-    /* background-color: #333469; */
     color: white;
     display: block;
     position: fixed;
@@ -25,10 +22,7 @@ html{
     margin-top: -150px;
 }
 .nav_link-container{
-    /* border: 1px solid wheat; */
-    /* margin-top: 10px; */
     height: 68px;
-    /* position: fixed; */
     width: 70%;
     margin: auto;
     display: flex;
@@ -36,60 +30,13 @@ html{
     align-items: center;
     color: #c9d1d9;
     margin-top: 0;
-    /* position: fixed; */
     
 }
 .nav_link-container a{
     text-decoration: none;
     color: #c9d1d9;
-    /* position: fixed; */
 }
 
-/* .nav_link-container ul {
-    margin: auto;
-    width: 60%;
-    height: 100%;
-    justify-content: space-evenly;
-    display: flex;
-    text-align: center;
-    align-items: center;
-}
-.nav_link-container ul li {
-    list-style: none;
-}
-.nav_link-container ul li a {
-    color: red;
-    font-size: 0.5cm;
-    text-decoration: none;
-    cursor: pointer;
-} */
-
-/* #resume-link-1, */
- /* #resume-link-1, #resume-button-2{
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    font-size: 14px;
-    line-height: 1;
-    border-radius: 7px;
-    transition-property: background-color,border-color,color,box-shadow,filter;
-    transition-duration: .3s;
-    border: 1px solid transparent;
-    letter-spacing: 2px;
-    min-width: 160px;
-    text-transform: uppercase;
-    white-space: normal;
-    font-weight: 700;
-    text-align: center;
-    padding: 17px 18px;
-    color: #c9d1d9;
-    height: 48px;
-}
-#resume-link-1:hover{
-    transform: scale(1.04);
-    background-color: #c9d1d9;
-    color: #213549;
-}  */
 #resume-button-2{
     display: inline-block;
     outline: none;
@@ -111,11 +58,15 @@ html{
     background-color: #c9d1d9;
     height: 48px;
 }
-button:hover{
+.project-github-link:hover{
     transform: scale(1.04);
     color: white;
     background-color: #213549;
-    /* color: #c9d1d9; */
+}
+.project-deployed-link:hover{
+    transform: scale(1.04);
+    color: white;
+    background-color: #213549;
 }
 
 /* ------home------------- */
@@ -125,42 +76,30 @@ button:hover{
     width: -moz-fit-content;
     width: fit-content;
     width: 78%;
-    /* height: 500px; */
     margin: 150px auto 150px;
-    /* border: 5px solid blue; */
-    /* background-color: #333469; */
     display: flex;
     justify-content: space-between;
-    /* row-gap: 50px; */
     align-items: center;
-    /* padding: 20px; */
 
 }
 .child1{
-    /* width: 280px; */
     padding: 1em;
     height: 300px;
-    /* border: 2px solid red; */
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
     background-color: #213549;
     border-radius: 10px;
     object-fit: cover;
-    /* box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px; */
 }
 img {
     object-fit: cover;
-    /* border-radius: 10px; */
   }
 .child2{
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
     padding: 1em;
-    /* height: 500px; */
-    /* border: 2px solid green; */
-    /* align-items: center; */
-    /* margin: auto; */
-    /* text-align: left; */
+    font-size: calc(34px + 0.390625vw);
+    color: #213549;
 }
 
 /*------------------- about ---------------*/
@@ -169,13 +108,11 @@ img {
     width: 70%;
     height: 340px;
     padding: 1em;
-    /* border: 2px solid red; */
     margin: 30px auto 100px;
     color: #c9d1d9;
-    /* text-align: center; */
     display: flex;
     justify-content: space-between;
-    background-color: #333469;
+    background-color:#333469; 
     border-radius: 9px;
     object-fit: cover;
 }
@@ -187,7 +124,6 @@ img {
 }
 #about #home-div{
     height: 300px;
-    /* width: 300px; */
     object-fit: cover;
     margin: auto;
     padding: 1em;
@@ -202,14 +138,8 @@ img {
 }
 #skills{
     width: 70%;
-    /* display: grid;
-    grid-template-columns: repeat(7,1fr);
-    text-align: center;
-    align-items: center;
-    align-content: center; */
     margin: auto;
     margin: 30px auto 100px;
-    /* border: 1px solid black; */
     background-color: #333469;
     border-radius: 9px;
     display: flex;
@@ -217,17 +147,13 @@ img {
 }
 .skill_cont{
     padding: 1em;
-    /* border: 2px solid black; */
     width: 40%;
     margin: 30px auto;
     background-color: #c9d1d9;
     border-radius: 7px;
 }
 .skills-card{
-    /* border: 2px solid blue; */
-    /* padding: 0.5em; */
     width: 70%;
-    /* height: 80px; */
     margin: auto;
     align-items: center;
     background-color: #c9d1d9;
@@ -239,7 +165,6 @@ img {
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
-    /* margin: 10px auto; */
 }
 .skills-card-name{
     font-size: 22px;
@@ -252,21 +177,13 @@ img {
 #projects{
     width: 70%;
     margin: 30px auto 100px;
-    /* margin-bottom: 100px; */
     text-align: center;
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* display: flex; */
-    /* border: 1px solid black; */
     background-color: #333469;
     border-radius: 9px;
 }
 
-/* #projects>div{ */
-    /* height: 100px;
-    width: 100px; */
-    /* border: 2px solid purple; */
-/* } */
 .project-card{
     width: 85%;
     margin: auto;
@@ -279,7 +196,7 @@ img {
 }
 .project-card div>img{
     width: 100%;
-    /* padding: 1em; */
+    height: 245px;
 }
 .project-description{
     margin: 8px auto;
@@ -297,7 +214,6 @@ img {
     padding: 12px 24px;
     border: 0;
     color: black;
-    /* background: #000a47; */
     line-height: 1.15;
     font-size: 16px;
 }
@@ -322,7 +238,6 @@ img {
     width: 70%;
     display: flex;
     flex-direction: column;
-    /* border: 1px solid black; */
     padding: 1em;
     background-color: #333469;
     border-radius: 9px;
@@ -330,7 +245,6 @@ img {
 #git-cont img{
     margin: 5px; 
     width: 40%;
-    /* width: 37%; */
 }
 #git-one{
     margin: auto;
@@ -342,13 +256,6 @@ img {
 }
 #git-two {
     margin: 20px auto auto;
-    /* border: 1px solid black; */
-    /* width: 33%; */
-}
-#git-two img{
-    /* margin: 20px auto auto; */
-    /* border: 1px solid black; */
-    /* width: 33%; */
 }
 #github-top-langs{
     width: 40%;
@@ -361,12 +268,8 @@ img {
     margin: 30px auto 100px;
     display: flex;
     padding: 10px;
-    /* border: 2px solid rgb(184, 9, 9); */
     background-color: #333469;
     border-radius: 9px;
-}
-#contact>div{
-    /* width: 40%; */
 }
 #contact-text{
     width: 40%;
@@ -386,18 +289,21 @@ img {
     align-items: center;
     font-size: medium;
     padding: 2px;
-    /* width: 65%; */
 }
 #contact-link{
     margin: 50px auto auto;
-    
-    
 }
 .contact-link-logo{
     width: 50px;
     height: 50px;
     border-radius: 2px;
     background-color: #c9d1d9;
+}
+#contact-linkedin{
+    border: none;
+}
+#contact-github{
+    border: none;
 }
 
 .contact-form {
@@ -432,7 +338,6 @@ img {
   textarea {
     resize: none;
     height: 80px;
-    /* width: 200px; */
   }
   
   .contact-form input, .contact-form textarea {
@@ -445,8 +350,6 @@ img {
   .contact-form input:focus, .contact-form textarea:focus {
     outline: none;
     box-shadow: 0 0 5px #333469;
-    /* transform: scale(1.05);
-    transition: transform 0.3s ease-in-out; */
   }
   
   .contact-form button[type="submit"] {
@@ -482,15 +385,17 @@ img {
     /* Here Write all the necessery styles for Medium Screen size  */
     .nav_link-container{
         width: 85%;
-        /* font-size: small; */
     }
-    /* .nav_link-container li {
-        display: none;
-    } */
     #nav-menu>.nav_logo-container{
         width: auto;
         position: fixed;
         margin-top: 15px;
+    }
+
+    /*------------------- Home --------------*/
+    .child2{
+        font-size: calc(24px + 0.390625vw);
+        color: #213549;
     }
 
     /*------------------ about -------------*/
@@ -498,10 +403,8 @@ img {
         width: 70%;
         height: auto;
         padding: 1em;
-        /* border: 2px solid red; */
         margin: 30px auto 100px;
         color: #c9d1d9;
-        /* text-align: center; */
         display: flex;
         justify-content: space-between;
         background-color: #333469;
@@ -551,35 +454,23 @@ img {
         flex-direction: column-reverse;
     }
     #home-img{
-        /* height: 300px; */
         width: auto;
     }
     #about_resBut{
-        /* margin: auto;
-        padding: 1em;
-        object-fit: cover; */
         width: auto;
     }
     #about #home-div{
         height: auto;
-        /* width: 300px; */
-        /* object-fit: cover;
-        margin: auto;
-        padding: 1em; */
     }
 
     /*-------------------- skill ----------------*/
     #skills{
         width: 90%;
-        /* display: grid;
-        grid-template-columns: repeat(2,1fr); */
         display: flex;
         flex-direction: column;
     }
     .skill_cont{
         width: 90%;
-        /* margin: auto;
-        background-color: #c9d1d9; */
     }
 
     /*--------------------- project ----------------------------*/
@@ -591,7 +482,6 @@ img {
 
     /*-------------------------- github ---------------------------*/
     #git-cont, #git-one{
-        /* width: auto; */
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -599,26 +489,20 @@ img {
     #git-one img{
         margin: auto; 
         width: 100%;
-        /* width: 37%; */
     }
     #git-one #github-stats-card{
         margin-top: 10px;
     }
     #git-two{
         margin: 10px auto auto;
-        /* border: 1px solid black; */
         width: 90%;
     }
 
     /*------------------------------ contact -----------------------*/
     #contact{
         width: 90%; 
-      /*  margin: 20px auto; */
         display: flex;
         flex-direction: column;
-        /* padding: 12px;
-        border: 2px solid rgb(184, 9, 9);
-        background-color: #333469; */
     }
     #contact>div{
         width: auto;
