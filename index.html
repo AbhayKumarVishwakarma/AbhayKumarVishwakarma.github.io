@@ -5,23 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Abhay Kumar | Portfolio</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <div id="nav-menu">
-        <div class="nav_link-container">
-            <div><a class="nav-link home" href="#home"><span> HOME</span></a></div>
-            <div><a class="nav-link about" href="#about_s"><span> ABOUT</span></a></div>
-            <div><a class="nav-link skills" href="#skill_s"><span>SKILLS</span> </a></div>
-            <div><a class="nav-link projects" href="#project_s"><span>PROJECTS</span></a></div>
-            <div><a class="nav-link contact" href="#contact_s"><span>CONTACT</span> </a></div>
-            <div id="resume-button-1"><a class="nav-link resume" id="resume-link-1"
+    <header>
+        <nav class="nav-manu">
+            <a href="#" class="logo" style=" font-weight: lighter; font-size: 50px; color: aliceblue; font-family: 'Brush Script MT', cursive; ">Abhay</a>
+
+            <div class="hamburger">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </div>
+
+            <div class="nav__link-container hide">
+                <a class="nav-link home" href="#"><span> HOME</span></a>
+                <a class="nav-link about" href="#about_s"><span> ABOUT</span></a>
+                <a class="nav-link skills" href="#skill_s"><span>SKILLS</span></a>
+                <a class="nav-link projects" href="#project_s"><span>PROJECTS</span></a>
+                <a class="nav-link contact" href="#contact_s"><span>CONTACT</span></a>
+                <a class="nav-link resume" id="resume-link-1"
                     href="image/Abhay_Kumar_Vishwakarma_Resume.pdf" target="_blank"
-                    download="Abhay_Kumar_Vishwakarma_Resume">RESUME</a> </div>
-        </div>
-    </div>
+                    download="Abhay_Kumar_Vishwakarma_Resume"><span id="resume-button-1">RESUME</span></a>
+            </div>
+        </nav>
+    </header>
+
+
     <!-------------------------------------------- home -------------------->
 
 
@@ -29,13 +41,9 @@
 
         <div class="child2" style="">
             <h1 id="hi" style="text-align: left;">Hi,</h1>
-            <h1 id="user-detail-name" style="text-align: left; font-size: calc(88px + 0.390625vw); margin: 10px auto;"> I'm <span
-                    style="color: rgb(0, 157, 255);">Abhay</span></h1>
+            <h1 id="user-detail-name" style="text-align: left; margin: 10px auto;">
+                I'm <span style="color: rgb(0, 157, 255);">Abhay</span></h1>
             <h1 id="user-details" style="text-align: left; margin: 13px auto;">Java Developer </h1>
-            <!-- <div class="resumebtn">
-            <button id="resume-button-2" class="btn" fdprocessedid="g7rqeh"><a id="resume-link-2" href=""
-                    target="_blank" download="">RESUME</a></button>
-        </div> -->
         </div>
 
         <div class="child1">
@@ -47,7 +55,8 @@
 
     <!------------------------------------ about ------------------------->
 
-    <h1 class="header" id="about_s" style="text-align: center; margin-top: 100px;">ABOUT</h1>
+    <h1 id="about_s" style="margin-bottom: 150px;"></h1>
+    <h1 class="header">ABOUT</h1>
     <div title="About" id="about" class="about section">
         <title>About</title>
         <div id="about_resBut">
@@ -74,7 +83,8 @@
 
     <!-------------------------------------------------- SKILLS ---------------------------------------------------->
 
-    <h1 class="header" id="skill_s">SKILLS</h1>
+    <h1 id="skill_s" style="margin-bottom: 130px;"></h1>
+    <h1 class="header" id="skill">SKILLS</h1>
 
     <div id="skills">
         <div class="skill_cont">
@@ -142,7 +152,8 @@
 
     <!------------------------------------------ project --------------------------------->
 
-    <h1 class="header" id="project_s">PROJECTS</h1>
+    <h1 id="project_s" style="margin-bottom: 130px;"></h1>
+    <h1 class="header" >PROJECTS</h1>
     <div id="projects">
 
         <div class="project-card" style="margin-top: 50px;">
@@ -155,8 +166,9 @@
                 <div class="project-button-div">
                     <button class="project-github-link"><a href="https://github.com/AbhayKumarVishwakarma/Safar"
                             target="_blank" style="text-decoration: none;">Github</a></button>
-                    <button class="project-deployed-link"><a href="https://drive.google.com/file/d/178T_HpxqDww2gO7OsoMt8HMGVESi55GG/view" target="_blank"
-                            style="text-decoration: none;">Live Demo</a></button>
+                    <button class="project-deployed-link"><a
+                            href="https://drive.google.com/file/d/178T_HpxqDww2gO7OsoMt8HMGVESi55GG/view"
+                            target="_blank" style="text-decoration: none;">Live Demo</a></button>
                 </div>
             </div>
         </div>
@@ -199,7 +211,7 @@
             <div>
                 <h2 class="project-title">Kindmeal Clone</h2>
                 <p class="project-description">KindMeal is an online platform that selects the best vegetarian
-                    restaurant for us</p>
+                    restaurant for user</p>
                 <h4 class="project-tech-stack">Html | CSS | JavaScript</h4>
                 <div class="project-button-div">
                     <button class="project-github-link"><a
@@ -214,7 +226,9 @@
     </div>
 
     <!---------------------------------------- github ---------------------->
-    <h1 class="header" id="git_s">GitHub Submissions </h1>
+    
+    <h1 id="git_s" style="margin-bottom: 130px;"></h1>
+    <h1 class="header">GitHub Submissions </h1>
     <div id="git-cont" class="react-activity-calendar">
         <div id="git-one">
             <img id="github-streak-stats"
@@ -237,7 +251,9 @@
     </div>
 
     <!--------------------------------- contact -------------------------------->
-    <h1 class="header" id="contact_s">CONTACT</h1>
+    
+    <h1 id="contact_s" style="margin-bottom: 130px;"></h1>
+    <h1 class="header">CONTACT</h1>
     <div id="contact">
         <div id="contact-text">
             <h2 style="margin-bottom: 50px;"> Contact me</h2>
@@ -245,8 +261,8 @@
                     src="image/phoneLogo.png" alt="">72330-53062</button>
             <button id="contact-email" class="contact-text-logo"><img style="margin-right: 15px; width: 15%;"
                     src="image/locationLogo.png" alt="">Sultanpur, UP</button>
-            <button class="contact-text-logo"><img style="margin-right: 10px; width: 8%;" src="image/messageLogo.png"
-                    alt="">3492akv@gmail.com</button>
+            <div class="contact-text-logo"><img style="margin-right: 10px; width: 8%;" src="image/messageLogo.png"
+                    alt="">abhaykumarv00@gmail.com</div>
             <div id="contact-link">
                 <button id="contact-linkedin" class="contact-link-logo"><a
                         href="https://www.linkedin.com/in/abhay-kumar-vishwakarma-3b0b66260/" target="_blank"><img
