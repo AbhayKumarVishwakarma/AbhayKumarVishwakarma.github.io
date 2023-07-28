@@ -190,7 +190,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    /* height: 100vh; */
 }
 
 .child1 {
@@ -268,6 +268,9 @@ img {
 .skill_cont {
     padding: 1em;
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     margin: 50px auto;
     background-color: #c9d1d9;
     border-radius: 7px;
@@ -305,13 +308,14 @@ img {
     grid-template-columns: repeat(2, 1fr);
     background-color: #333469;
     border-radius: 9px;
+    align-items: center;
 }
 
 .project-card {
     width: 85%;
     margin: auto;
     border: 2px solid darkgreen;
-    margin-bottom: 50px;
+    margin: 50px auto;
     background-color: #c9d1d9;
 }
 
@@ -322,6 +326,7 @@ img {
 .project-card div>img {
     width: 100%;
     height: 245px;
+    /* object-fit: cover; */
 }
 
 .project-description {
