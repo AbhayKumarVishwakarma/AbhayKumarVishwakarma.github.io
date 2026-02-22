@@ -477,7 +477,7 @@ function About() {
           <div style={{ display: "flex", justifyContent: "center" }}>
             <div style={{ position: "relative", display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
               <div style={{ width: 190, height: 190, borderRadius: "50%", background: "linear-gradient(135deg,#4285F4 0%,#34A853 100%)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "4.5rem", animation: "gentleFloat 4.5s ease-in-out infinite", boxShadow: "0 24px 64px rgba(66,133,244,0.22)", position: "relative", zIndex: 1 }}>
-                👨💻
+                👨‍💻
               </div>
               <div style={{ position: "absolute", inset: -16, borderRadius: "50%", border: "2px dashed rgba(66,133,244,0.25)", animation: "orbitSpin 10s linear infinite" }}>
                 {G.map((c, i) => {
